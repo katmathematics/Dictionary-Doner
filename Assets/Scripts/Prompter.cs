@@ -23,14 +23,23 @@ public class Prompter : MonoBehaviour
         
     }
 
-    public void SetCurrentPrompt(string newPrompt)
+    public void SetCurrentPrompt(string newPrompt, string themeKey = "null")
     {
         currentPrompt = newPrompt;
-        DisplayPrompt(currentPrompt);
+        DisplayPrompt(currentPrompt, themeKey);
     }
 
-    private void DisplayPrompt(string prompt)
+    private void DisplayPrompt(string prompt, string themeKey)
     {
+        if (themeKey == "agent")
+        {
+            prompt = "Doner, " + prompt + " doner.";
+        }
+        else
+        {
+            prompt = "One " + prompt + " special bitte!";
+        }
+
         promptOutput.text = prompt;
     }
 

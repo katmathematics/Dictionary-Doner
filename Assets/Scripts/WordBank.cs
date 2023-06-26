@@ -15,10 +15,10 @@ public class WordBank : MonoBehaviour
     private List<Tuple<string, string, string>> taskList = new List<Tuple<string, string, string>>
     {
         //Format: "word", "theme tag", "prompt text" 
-        ("die Waffe", "agent", "One \"gun\" special, bitte.").ToTuple(),
-        ("das Gift", "agent", "One \"poison\" special, bitte.").ToTuple(),
-        ("der Hai", "agent", "One \"shark\" special, bitte.").ToTuple(),
-        ("das Gold", "else", "One \"gold\" special, bitte.").ToTuple()
+        ("die Waffe", "agent", "gun").ToTuple(),
+        ("das Gift", "agent", "poison").ToTuple(),
+        ("der Hai", "agent", "shark").ToTuple(),
+        ("das Gold", "else", "gold").ToTuple()
     };
 
     private Tuple<string, string, string> currentTask = new Tuple <string, string, string>("Hallo Welt", "general", "One \"Hello World\" special, bitte.");

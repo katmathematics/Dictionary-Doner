@@ -1,1 +1,1 @@
-der Laser|agent|One "laser" special, bitte.
+der Laser|agent|laser

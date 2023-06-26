@@ -34,7 +34,7 @@ public class RestaurantManager : MonoBehaviour
         currentTask = wordBank.GetTask();
         typer.SetCurrentWord(currentTask.Item1);
         customers.SetCurrentTheme(currentTask.Item2);
-        prompter.SetCurrentPrompt(currentTask.Item3);
+        prompter.SetCurrentPrompt(currentTask.Item3, currentTask.Item2);
     }
 
     public void EndDay() {
