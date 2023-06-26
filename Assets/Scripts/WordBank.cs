@@ -10,6 +10,7 @@ using System.Linq;
 public class WordBank : MonoBehaviour
 {
 
+    public RestaurantManager Mikey = null;
 
     private List<Tuple<string, string, string>> taskList = new List<Tuple<string, string, string>>
     {
@@ -17,7 +18,7 @@ public class WordBank : MonoBehaviour
         ("die Waffe", "agent", "One \"gun\" special, bitte.").ToTuple(),
         ("das Gift", "agent", "One \"poison\" special, bitte.").ToTuple(),
         ("der Hai", "agent", "One \"shark\" special, bitte.").ToTuple(),
-        ("das Gold", "agent", "One \"gold\" special, bitte.").ToTuple()
+        ("das Gold", "else", "One \"gold\" special, bitte.").ToTuple()
     };
 
     private Tuple<string, string, string> currentTask = new Tuple <string, string, string>("Hallo Welt", "general", "One \"Hello World\" special, bitte.");
@@ -38,10 +39,16 @@ public class WordBank : MonoBehaviour
 
     public Tuple<string, string, string> GetTask()
     {      
-        if (taskList.Count != 0)
+        if (taskList.Count > 0)
         {
             currentTask = taskList.Last();
             taskList.Remove(taskList.Last());
+        }
+        else
+        {
+            print("Test.5");
+            Mikey.EndDay();
+            currentTask = ("null", "dev", "That's a wrap!").ToTuple();
         }
         
 

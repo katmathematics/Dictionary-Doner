@@ -9,7 +9,11 @@ public class RestaurantManager : MonoBehaviour
 {
     public WordBank wordBank = null;
     public Prompter prompter = null;
+    public Customers customers = null;
     public Typer typer = null;
+
+    public TMP_Text wordOutput = null;
+    public TMP_Text promptOutput = null;
 
     private Tuple<string, string, string> currentTask = new Tuple <string, string, string>("Hallo Welt", "general", "One \"Hello World\" special, bitte.");
 
@@ -29,6 +33,13 @@ public class RestaurantManager : MonoBehaviour
     public void SetCurrentTask() {
         currentTask = wordBank.GetTask();
         typer.SetCurrentWord(currentTask.Item1);
+        customers.SetCurrentTheme(currentTask.Item2);
         prompter.SetCurrentPrompt(currentTask.Item3);
+    }
+
+    public void EndDay() {
+        typer.enabled = false;
+        wordOutput.enabled = false;
+        customers.enabled = false;
     }
 }
