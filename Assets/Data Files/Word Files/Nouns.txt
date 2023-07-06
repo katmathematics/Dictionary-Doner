@@ -1,0 +1,89 @@
+word|gender|plural|theme|eng word|eng plural
+Laser|m|Lasers|agent|laser|lasers
+Mensch|m|Menschen|fauna|human|humans
+Fall|m|Fällen|news|case/instance|cases/instances
+Million|f|Millionen|business|million|millions
+Straße|f|Straßen|tour|street|streets
+Geschichte|f|Geschichten|history|story/history|stories/histories
+Seite|f|Seiten|education|page|pages
+Seite|f|Seiten|education|side|sides
+Artikel|m|Artikels|news|article|articles
+Platz|m|Plätze|tour|place|places
+Teil|m|Teile|education|part (of a whole)|parts (of a whole)
+Sache|f|Sachen|business|thing/matter/affair|things/matters/affairs
+Spiel|n|Spiele|hobbies|game|games
+Weg|m|Wege|tour|path|paths
+Ding|n|Dinge|supplies|object|objects
+Unternehmen|n|Unternehmen|business|company|companies
+Projekt|n|Projekte|supplies|project|projects
+Blog|m|Blogs|technology|blog|blogs
+Ziel|n|Ziele|business|objective|objectives
+Schüler|m|Schüler|education|pupil (masc)|pupils (masc)
+Schülerin|f|Schülerinnen|education|pupil (fem)|pupils (fem)
+Musik|f|na|hobbies|music|na
+Kultur|f|Kulturen|politics|culture|cultures
+Zahl|f|Zahlen|business|number (immutable)|numbers (immutable)
+Band|n|Bänder|supplies|band/ribbon|bands/ribbons
+Stelle|f|Stellen|business|place/site/office|places/sites/offices
+Meinung|f|Meinungen|politics|opinion|opinions
+Unterscheid|m|Unterscheidungen|politics|distinction|distinctions
+Regenschirm|m|Regenschirme|objects|umbrella|umbrellas
+Erfahrung|f|Erfahrungen|education|experience|experiences
+Stück|n|Stücke|cooking|piece (of something)|pieces (of something)
+Angst|f|Ängste|theater|fear|fears
+Angebot|n|Angebote|business|offer|offers
+Besuch|m|Besuche|family|visit|visits
+Gericht|n|Gerichte|cooking|dish (of food)|dishes (of food)
+Gericht|n|Gerichte|politics|court|courts
+Tipp|m|Tipps|hobbies|hint|hints
+Reihe|f|Reihen|politics|row|rows
+Ahnung|f|Ahnungen|cult|suspicion/premonition|suspicions/premonitions
+Nähe|f|na|tour|proximity|na
+Mittel|n|Mittel|illness|method|methods
+Vertrag|m|Verträge|business|contract|contracts
+Luft|f|Lüfte|science|air|airs
+Lied|n|Lieder|hobbies|song|songs
+Witz|m|Witze|party|joke|jokes
+Gesicht|n|Gesichter|party|face|faces
+Fluss|m|Flüsse|science|river|rivers
+Flaum|m|na|supplies|fluff|na
+Wald|m|Wälder|science|forest|forests
+Ausbildung|f|Ausbildungen|education|training|trainings
+Mehrheit|f|Mehrheiten|politics|majority|majorities
+Minderheit|f|Minderheiten|politics|minority|minorities
+Jugend|f|na|family|youth|na
+Haushalt|m|Haushalte|family|household|households
+Unfall|m|Unfälle|cult|accident|accidents
+Schauspieler|m|Schauspieler|party|actor (masc)|actors (masc)
+Wettbewerb|m|Wettbewerbe|hobbies|competition|competitions
+Körper|m|Körper|cult|body|bodies
+Meer|n|Meere|science|sea|seas
+Traum|m|Träume|cult|dream|dreams
+Anmeldung|f|Anmeldungen|business|registration|registrations
+Büro|n|Büros|business|office|offices
+Krankenhaus|n|Krankenhauser|illness|hospital|hospitals
+Brücke|f|Brücken|tour|bridge|bridges
+Datei|f|Dateien|technology|data file|data files
+Verkehr|m|na|transport|traffic|na
+Fest|n|Feste|party|celebration|celebrations
+Rest|m|Reste|cooking|remainder|remainders
+Schiff|n|Schiffe|transport|ship|ships
+Dachboden|m|Dachböden|house|attic|attics
+Dach|n|Dächer|house|roof|roofs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
