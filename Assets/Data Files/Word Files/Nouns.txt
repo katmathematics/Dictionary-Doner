@@ -1,4 +1,3 @@
-word|gender|plural|theme|eng word|eng plural
 Laser|m|Lasers|agent|laser|lasers
 Mensch|m|Menschen|fauna|human|humans
 Fall|m|Fällen|news|case/instance|cases/instances
@@ -70,20 +69,3 @@ Rest|m|Reste|cooking|remainder|remainders
 Schiff|n|Schiffe|transport|ship|ships
 Dachboden|m|Dachböden|house|attic|attics
 Dach|n|Dächer|house|roof|roofs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

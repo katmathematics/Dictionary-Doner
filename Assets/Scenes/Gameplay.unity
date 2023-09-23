@@ -1382,6 +1382,18 @@ PrefabInstance:
       propertyPath: customer
       value: 
       objectReference: {fileID: 1359063101}
+    - target: {fileID: 5413501097186682760, guid: 0fe5effb670d7df4c9728c077ca04b34, type: 3}
+      propertyPath: jennaEricson
+      value: 
+      objectReference: {fileID: 21300000, guid: ca37d7e6c3c0a234c8298815f6c3d22b, type: 3}
+    - target: {fileID: 5413501097186682760, guid: 0fe5effb670d7df4c9728c077ca04b34, type: 3}
+      propertyPath: gilliganGuppy
+      value: 
+      objectReference: {fileID: 21300000, guid: f47a19ee363922544a97930a16a9e1cc, type: 3}
+    - target: {fileID: 5413501097186682760, guid: 0fe5effb670d7df4c9728c077ca04b34, type: 3}
+      propertyPath: highEmpressMusya
+      value: 
+      objectReference: {fileID: 21300000, guid: 24995e37cc81bb84f9e4e15206bcda0b, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

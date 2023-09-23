@@ -25,14 +25,14 @@ public class WordBank : MonoBehaviour
 
     private void Awake()
     {
-        var path = Path.Combine(Directory.GetCurrentDirectory(), "..\\Dictionary Doner\\Assets\\Data Files\\Tasks.txt");
+        var path = Path.Combine(Directory.GetCurrentDirectory(), "..\\Dictionary-Doner\\Assets\\Data Files\\Word Files\\Nouns.txt");
         var reader = new StreamReader(File.OpenRead(path));
 
         while (!reader.EndOfStream)
         {
             var line = reader.ReadLine();
             var values = line.Split('|');
-            
+            print(line);
             taskList.Add(Tuple.Create(values[0],values[1],values[2]));
         }
     }

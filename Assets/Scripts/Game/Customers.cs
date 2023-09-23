@@ -10,7 +10,9 @@ public class Customers : MonoBehaviour
     public Image customer = null;
 
     public Sprite jamesYacht;
-    public Sprite notJamesYacht;
+    public Sprite gilliganGuppy;
+    public Sprite jennaEricson;
+    public Sprite highEmpressMusya;
 
     private string currentTheme = string.Empty;
 
@@ -38,9 +40,15 @@ public class Customers : MonoBehaviour
         {
             customer.sprite = jamesYacht;
         }
+        else if (theme == "business") {
+            customer.sprite = gilliganGuppy;
+        }
+        else if (theme == "politics") {
+            customer.sprite = highEmpressMusya;
+        }
         else
         {
-            customer.sprite = notJamesYacht;
+            customer.sprite = jennaEricson;
         }
     }
 
